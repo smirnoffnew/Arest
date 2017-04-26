@@ -1,0 +1,61 @@
+nav {
+    padding-left: 300px;
+    background: #c50033;
+}
+
+nav .button-collapse {
+    margin: 0;
+}
+
+.custom-burger-menu {
+    cursor: pointer;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+footer {
+    text-align: right;
+    padding: 20px 0 0 300px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.custom-sidebar {
+    width: 300px;
+    position: fixed;
+    z-index: 999;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+    top: 64px;
+    left: 0;
+    transition: all .4s;
+    background-color: #eeeeee;
+}
+.custom-sidebar.show {
+    left: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    nav {
+        padding-left: 0;
+    }
+    .custom-sidebar {
+        left: -300px;
+    }
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    nav .button-collapse {
+        margin: 0 18px;
+    }
+}
+
+
+

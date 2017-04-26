@@ -1,0 +1,153 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+a[href='#table-of-contents'], #table-of-contents, #table-of-contents + ul {
+    display: none;
+}
+pre {
+    background: #E0E0E0;
+    padding: 15px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
+code {
+    background: #E0E0E0;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.8rem;
+    border-bottom: 1px solid #eaecef;
+}
+h2 {
+    font-size: 2.4rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.8rem;
+}
+h5 {
+    font-size: 1.6rem;
+}
+h6 {
+    font-size: 1.2rem;
+}
+main ul:not(.browser-default) {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+main ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+.badge {
+    text-align: right;
+}
+.stars {
+    padding: 5px 0;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.stars:hover {
+    background: rgba(27,31,35,0.1);
+}
+.stars .material-icons {
+    vertical-align: text-bottom;
+}
+.stars span {
+    padding: 0 5px;
+}
+.stars>span:first-child {
+    border-right: 1px solid #fff;
+}
+.badge .material-icons {
+    padding-top: 10px;
+    font-size: 20px;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+    color: black;
+    background: none;
+    text-shadow: 0 1px white;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+    text-shadow: none;
+    background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    text-shadow: none;
+    background: #b3d4fc;
+}
+
+@media print {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 1.4rem;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+}
+

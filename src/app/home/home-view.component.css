@@ -1,0 +1,43 @@
+main {
+    padding-left: 300px;
+    margin-top: 115px;
+}
+
+pre {
+    background: #E0E0E0;
+    padding: 15px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
+
+code {
+    background: #E0E0E0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.4rem;
+    border-bottom: 1px solid #eaecef;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+main ul:not(.browser-default) {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+main ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+@media only screen and (max-width: 992px) {
+    main {
+        padding-left: 0;
+        margin-top: 90px;
+    }
+}
